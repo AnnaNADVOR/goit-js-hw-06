@@ -11,7 +11,7 @@ function onFormSubmit(event) {
     const password = formEl.password.value; 
 
 if (email === '' || password === '') {
-        alert('Write all fields!');
+        alert('Write down all fields!');
         return;
     }
 
