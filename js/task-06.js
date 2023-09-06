@@ -8,9 +8,9 @@ refs.input.addEventListener('blur', onLengthCheck);
 
 
 function onLengthCheck(event) {
-    const imputValue = event.currentTarget.value.trim();
+    const inputValue = event.currentTarget.value.trim();
     
-    if (imputValue.length === inputLength) {
+    if (inputValue.length === inputLength) {
        
         if (refs.input.classList.contains('invalid')) {
        refs.input.classList.remove('invalid');  
