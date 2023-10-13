@@ -8,6 +8,7 @@ refs.input.addEventListener('blur', onLengthCheck);
 
 
 function onLengthCheck(event) {
+   
     const inputValue = event.currentTarget.value.trim();
     
     if (inputValue.length === inputLength) {
